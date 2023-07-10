@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "snakehook"
+version = "0.1.0"
+description = ""
+authors = ["Rem <128343390+import-pandas-as-numpy@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "snakehook"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
